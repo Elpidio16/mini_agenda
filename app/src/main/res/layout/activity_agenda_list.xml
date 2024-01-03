@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bleu_claire"
+    tools:context=".AgendaList_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/AgendaListNameView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="agenda list"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/bleu">
+        </TextView>
+
+        <ListView
+            android:id="@+id/ListviewAgendaListNameView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="10dp">
+
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addAgendaButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/circle_btn"
+        android:text="+"
+        android:textColor="@color/bleu"
+        android:textSize="43dp"
+        app:backgroundTint="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp">
+    </Button>
+
+
+</RelativeLayout>
